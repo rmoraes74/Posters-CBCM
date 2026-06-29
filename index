@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pôsteres Congresso Brasileiro de Comportamento Motor</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            /* Centraliza o texto e elementos inline */
+            margin-top: 30px;
+            /* Reduzi um pouco a margem superior */
+        }
+
+        .logo-container {
+            display: flex;
+            /* Habilita o Flexbox para alinhar os itens filhos */
+            justify-content: center;
+            /* Centraliza os itens horizontalmente */
+            align-items: center;
+            /* Centraliza os itens verticalmente (opcional, dependendo da altura das imagens) */
+            margin-bottom: 20px;
+            /* Espaço abaixo dos logos */
+        }
+
+        .logo {
+            max-width: 45%;
+            /* Ajusta a largura para ocupar menos da metade em telas lado a lado */
+            height: auto;
+            margin: 0 10px;
+            /* Adiciona um espaço entre as imagens */
+        }
+
+        .link-button {
+            display: block;
+            margin: 10px auto;
+            padding: 15px 30px;
+            background-color: #f0f0f0;
+            color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+            width: 80%;
+            max-width: 300px;
+        }
+
+        h1 {
+            margin-top: 30px;
+            /* Adiciona espaço acima do título */
+        }
+
+        /* Media Query para telas com largura máxima de 600 pixels (telas de celular, geralmente) */
+        @media (max-width: 600px) {
+            .logo-container {
+                flex-direction: column;
+                /* Alinha os itens verticalmente em coluna */
+                align-items: center;
+                /* Centraliza os itens horizontalmente dentro da coluna */
+            }
+
+            .logo {
+                max-width: 80%;
+                /* Aumenta a largura para ocupar mais espaço na tela */
+                margin: 10px 0;
+                /* Adiciona margem superior e inferior para separação */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo-container">
+        <img src="Logo_LaBioCoM_2017.png" alt="Logo LaBioCoM" class="logo">
+    </div>
+    <h1>Material Suplementar<br>Abel Gonçalves Chinaglia<br>II Simpósio de Biomecânica 2026</h1>
+    <a href="https://www.nature.com/articles/s41598-024-60074-x" class="link-button" target="_blank">Monteiro et al.
+        Scientific Reports</a>
+    <a href="https://www.socibracom.com/bjmb/index.php/bjmb/article/view/462" class="link-button" target="_blank">Tahara
+        et al. BJMB</a>
+    <a href="https://journals.sagepub.com/doi/full/10.1177/17543371241282362" class="link-button"
+        target="_blank">Chinaglia et al. Sage Journal</a>
+    <a href="https://www.tandfonline.com/doi/full/10.1080/02640414.2026.2653295" class="link-button"
+        target="_blank">Negra et al.
+        Journal of Sports Sciences</a>
+    <a href="https://github.com/Abel-Chinaglia" class="link-button" target="_blank">Git Hub Abel Chinaglia</a>
+    <a href="http://lattes.cnpq.br/7368801912149739" class="link-button" target="_blank">Currículo Lattes Abel
+        Chinaglia</a>
+    <a href="https://www.linkedin.com/in/abel-gon%C3%A7alves-chinaglia-909873b5/" class="link-button"
+        target="_blank">LinkedIn Abel Chinaglia</a>
+</body>
+
+</html>
